@@ -1,18 +1,21 @@
     var currentModule = "";
 
 $(document).ready(function(){
+	$(".button-collapse").sideNav();
+
     $('.collapsible').collapsible({
       accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
     });
 
-    clickNewFeed();
+    clickNewsFeed();
 
   });
 
-function clickNewFeed(){
+function clickNewsFeed(){
 
 		$( "li" ).removeClass('active');
 		$(	"#news-tab" ).addClass('active');
+		$('.button-collapse').sideNav('hide');
 
 		if(currentModule!="newsfeed"){
 
@@ -21,7 +24,7 @@ function clickNewFeed(){
 			}else{
 
 			$( " #canvas " ).removeClass("fadeInLeft").addClass( "fadeOutRight" );
-		console.log("clickNewFeed");
+		console.log("clickNewsFeed");
 
 		setTimeout(function(){		  
 			$( "#canvas" ).load( "newsfeed_module.html" );
@@ -39,11 +42,12 @@ function clickSoftware(){
 		
 		$( "li" ).removeClass('active');
 		$(	"#resources-tab" ).addClass('active');
+		$('.button-collapse').sideNav('hide');
 
 			if(currentModule!="softwares"){
 
 			$( " #canvas " ).removeClass("fadeInLeft").addClass( "fadeOutRight" );
-		console.log("clickNewFeed");
+		console.log("clickNewsFeed");
 
 		setTimeout(function(){		  
 			$( "#canvas" ).load( "softwares.html" );
