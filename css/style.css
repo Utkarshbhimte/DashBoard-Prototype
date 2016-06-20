@@ -1,0 +1,66 @@
+body{
+	background-color: #f5f5f5;
+	max-width: 100vw;
+}
+
+.nav-wrapper {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.nav-tab{
+	padding-left: 3em; padding-right: 3em;
+
+}
+
+.dropdown-content{
+	margin-top: .3em;
+}
+
+#canvas{
+	min-height: 80vh;
+	padding: 3em 1em 2em 1em;
+}
+
+#NewsFeed{
+	min-height: 40vh;
+}
+
+.collapsible-header{
+	min-height: 2em !important;
+	font-size: 1.7em !important;
+	padding: 1em !important;
+}
+.card-title{
+	text-align: left;
+}
+
+.cardImage{
+	height: 5em;
+	width: auto;
+}
+
+h3{
+	margin-bottom: .5em;
+}
+
+#tables{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+}
+
+.brand-logo{
+	font-family: 'Merienda', cursive;
+}
+
+.card-title{
+	font-family: 'Oswald', sans-serif;
+}
+
+.row{
+	margin-bottom: 0em !important;
+}
+
+.page-footer{
+	margin-top: 0em !important;
+}
