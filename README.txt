@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/utkarshbhimte/pen/ezzwrg.
-
- 
+A Prototype for the Student-Dashboard; A website to provide notification and resources regarding DeveloperCourse.
