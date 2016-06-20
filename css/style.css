@@ -12,6 +12,11 @@ body{
 
 }
 
+#side-nav-btn{
+	padding:0em 3em;
+}
+
+
 .dropdown-content{
 	margin-top: .3em;
 }
@@ -25,7 +30,7 @@ body{
 	min-height: 40vh;
 }
 
-.collapsible-header{
+.news-feed-header{
 	min-height: 2em !important;
 	font-size: 1.7em !important;
 	padding: 1em !important;
